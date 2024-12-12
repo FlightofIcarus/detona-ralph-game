@@ -1,0 +1,50 @@
+/* :root {
+    
+} */
+body {
+    height: 100vh;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+    padding: 8px 0;
+}
+
+.menu-lives {
+    display: flex;
+    align-items: center;
+}
+
+.red-title {
+    font-size: 1.5rem;
+    color: #f00;
+}
+
+.white-title {
+    color: #fff;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+    height: calc(100% - 103px);
+    border-top: 8px solid yellow;
+    background-image: url(../images/wall.png);
+}
+
+.square {
+    
+    background-color: #24551a;
+    width: 150px;
+    height:150px;
+    border: 1px solid #000;
+}
+
+.enemy {
+    background-image: url(../images/ralph.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
